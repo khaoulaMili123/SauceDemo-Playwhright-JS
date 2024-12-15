@@ -1,19 +1,19 @@
 # SauceDemo-Playwhright-JS
-This project is an automated testing framework built using Playwright for end-to-end testing of a web application. It includes comprehensive test cases for various user scenarios, such as logging in, navigating through the application, and completing the checkout process. The framework is modular, scalable, and designed for efficient test execution.
+📋 This project is an automated testing framework built using Playwright for end-to-end testing of a web application. It includes comprehensive test cases for various user scenarios, such as logging in, navigating through the application, and completing the checkout process. The framework is modular, scalable, and designed for efficient test execution.
 
-Features:
+Features
 
-Page Object Model (POM): The project follows the POM design pattern, which separates the logic of web elements from the test scripts for better maintainability.
+🧩 Page Object Model (POM): The project follows the POM design pattern, which separates the logic of web elements from the test scripts for better maintainability.
 
-Cross-Browser Support: Execute tests across multiple browsers like Chromium, Firefox, and WebKit.
+🌍 Cross-Browser Support: Execute tests across multiple browsers like Chromium, Firefox, and WebKit.
 
-Reusable Components: Common methods and configurations are stored in reusable modules to avoid redundancy.
+♻️ Reusable Components: Common methods and configurations are stored in reusable modules to avoid redundancy.
 
-Detailed Test Scenarios: Includes smoke tests, end-to-end workflows, and edge case validations.
+🔍 Detailed Test Scenarios: Includes smoke tests, end-to-end workflows, and edge case validations.
 
-Error Handling: Verifies error messages and validates proper handling of invalid inputs.
+🚨 Error Handling: Verifies error messages and validates proper handling of invalid inputs.
 
-Directory Structure
+Directory Structure:
 
 ./
 ├── pageObjects
@@ -66,51 +66,51 @@ Directory Structure
 
 └── playwright.config.js
 
-Key Components
+Key Components:
 
-pageObjects/: Contains locators and element definitions for different pages.
+📄 pageObjects/: Contains locators and element definitions for different pages.
 
-pages/: Contains actions and methods for interacting with the web elements.
+🖱️ pages/: Contains actions and methods for interacting with the web elements.
 
-tests/: Includes test scripts for validating the application under different scenarios.
+🧪 tests/: Includes test scripts for validating the application under different scenarios.
 
-ConfigUtil.js: Holds configuration details such as base URLs and other constants.
+⚙️ ConfigUtil.js: Holds configuration details such as base URLs and other constants.
 
-playwright.config.js: Configuration for the Playwright test runner.
+🛠️ playwright.config.js: Configuration for the Playwright test runner.
 
-Installation
+Installation:
 
-Clone the repository:
+📥 Clone the repository:
 
 git clone <repository_url>
 
-Navigate to the project directory:
+📂 Navigate to the project directory:
 
 cd <project_directory>
 
-Install dependencies:
+📦 Install dependencies:
 
 npm install
 
-Usage
+Usage:
 
-Run all tests:
+▶️ Run all tests:
 
 npx playwright test
 
-Run a specific test:
+🎯 Run a specific test:
 
 npx playwright test tests/TC01SmokeTest.test.js
 
-Generate an HTML report:
+📊 Generate an HTML report:
 
 npx playwright show-report
 
-Debug tests:
+🐞 Debug tests:
 
 npx playwright test --debug
 
-Writing Tests
+Writing Tests:
 
 Follow the examples in the tests/ directory to create new test cases. Ensure to:
 
@@ -120,42 +120,42 @@ Write methods in pages/ for reusable interactions.
 
 Keep test scripts simple and high-level, focusing on the scenario flow.
 
-Test Scenarios Included
+Test Scenarios Included:
 
-Smoke Tests: Basic login and navigation validation.
+🚀 Smoke Tests: Basic login and navigation validation.
 
-End-to-End Checkout: Complete purchase workflow for multiple user types.
+✅ End-to-End Checkout: Complete purchase workflow for multiple user types.
 
-Error Handling: Validations for incorrect input and missing fields.
+⚠️ Error Handling: Validations for incorrect input and missing fields.
 
-Sorting and Filtering: Verifying product order and filtering options.
+🔄 Sorting and Filtering: Verifying product order and filtering options.
 
-Cross-User Scenarios: Ensures data consistency across sessions with different user roles.
+🔗 Cross-User Scenarios: Ensures data consistency across sessions with different user roles.
 
-Technologies Used
+Technologies Used:
 
-Playwright: For browser automation.
+🖥️ Playwright: For browser automation.
 
-JavaScript/Node.js: For scripting and execution.
+💻 JavaScript/Node.js: For scripting and execution.
 
-JSON: For test data storage.
+📑 JSON: For test data storage.
 
-Contribution
+Contribution:
 
 Contributions are welcome! Follow these steps:
 
-Fork the repository.
+🍴 Fork the repository.
 
-Create a feature branch:
+🌿 Create a feature branch:
 
 git checkout -b feature/new-feature
 
-Commit your changes:
+💾 Commit your changes:
 
 git commit -m "Add new feature"
 
-Push to the branch:
+⬆️ Push to the branch:
 
 git push origin feature/new-feature
 
-Open a Pull Request.
+🔃 Open a Pull Request.
