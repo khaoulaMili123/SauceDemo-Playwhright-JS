@@ -23,26 +23,47 @@ Directory Structure
 │   ├── completePage.js
 
 │   ├── homePage.js
+
 │   ├── itemDetailsPage.js
+
 │   ├── overviewPage.js
+
 │   ├── shopPage.js
+
 │   └── ShoppingCartPage.js
+
 ├── pages
+
 │   ├── checkoutInformationPage.js
+
 │   ├── completePage.js
+
 │   ├── homePage.js
+
 │   ├── itemDetailsPage.js
+
 │   ├── MethodRepository.js
+
 │   ├── overViewPage.js
+
 │   ├── shopPage.js
+
 │   └── shoppingCartPage.js
+
 ├── tests
+
 │   ├── TC01SmokeTest.test.js
+
 │   ├── TC02E2ECheckoutProcessforSU.test.js
+
 │   ├── TC03CheckoutProcessforSUandPGU.test.js
+
 │   ├── TC04CheckoutProcessforPUandPGU.test.js
+
 │   └── TC05CheckoutProcessforPGUandSU.test.js
+
 ├── ConfigUtil.js
+
 └── playwright.config.js
 
 Key Components
