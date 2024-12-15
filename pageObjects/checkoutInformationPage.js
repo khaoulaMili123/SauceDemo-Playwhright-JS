@@ -1,0 +1,8 @@
+export const firstName = "//input[@id='first-name']"
+export const lastName = "//input[@id='last-name']"
+export const postalCode = "//input[@id='postal-code']"
+export const continueBtn = "//input[@id='continue']"
+export const cancelBtn = "//button[@id='cancel']"
+export const errormsg = "[data-test='error']"
+export const burgerbtn = "//button[@id='react-burger-menu-btn']"
+export const logoutbtn="//a[@id='logout_sidebar_link']"

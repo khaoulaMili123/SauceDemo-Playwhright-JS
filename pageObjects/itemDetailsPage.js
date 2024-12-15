@@ -1,0 +1,8 @@
+export const detailsPageLogo ="//div[@class='app_logo']"
+export const image = "//img[@alt='Sauce Labs Backpack']"
+export const backToProductBtn="//button[@id='back-to-products']"
+export const itemName="//div[@class='inventory_details_name large_size']"
+export const itemDescription = "//div[@class='inventory_details_desc large_size']"
+export const itemPrice = "//div[@class='inventory_details_price']"
+export const addToCartBtn="//button[@id='add-to-cart']"
+export const removeBtn="//button[@id='remove']"

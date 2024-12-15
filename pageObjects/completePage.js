@@ -1,0 +1,7 @@
+export const completePageLogo ="//div[@class='app_logo']"
+export const completeHeader = "(//h2[normalize-space()='Thank you for your order!'])[1]"
+export const completeText = "//div[@class='complete-text']"
+export const ponyImg = "//img[@alt='Pony Express']"
+export const backHomeBtn = "//button[@id='back-to-products']"
+export const burgerbtn="//button[@id='react-burger-menu-btn']"
+export const logoutLink="//a[@id='logout_sidebar_link']"

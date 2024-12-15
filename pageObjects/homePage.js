@@ -1,0 +1,7 @@
+export const LoginPagelogo = "//div[@class='login_logo']"
+export const username = "//input[@id='user-name']"
+export const password = "//input[@id='password']"
+export const loginButton = "//input[@id='login-button']"
+export const logincredt = "//div[@id='login_credentials']"
+export const passwordcredt = "//div[@class='login_password']"
+export const errorMsg = "[data-test='error']"
