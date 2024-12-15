@@ -1,7 +1,7 @@
 # SauceDemo-Playwhright-JS
 This project is an automated testing framework built using Playwright for end-to-end testing of a web application. It includes comprehensive test cases for various user scenarios, such as logging in, navigating through the application, and completing the checkout process. The framework is modular, scalable, and designed for efficient test execution.
 
-Features
+Features:
 
 Page Object Model (POM): The project follows the POM design pattern, which separates the logic of web elements from the test scripts for better maintainability.
 
