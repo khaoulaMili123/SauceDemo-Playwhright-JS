@@ -17,8 +17,11 @@ Directory Structure
 
 ./
 ├── pageObjects
+
 │   ├── checkoutInformationPage.js
+
 │   ├── completePage.js
+
 │   ├── homePage.js
 │   ├── itemDetailsPage.js
 │   ├── overviewPage.js
